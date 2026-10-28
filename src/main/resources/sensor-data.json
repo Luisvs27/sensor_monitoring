@@ -1,0 +1,66 @@
+[
+  {
+    "sensorCode": "TEMP-A01",
+    "name": "Kuehlraum Nord",
+    "location": "Lager A",
+    "active": true,
+    "measurements": [
+      {
+        "id": 101,
+        "temperature": 4.8,
+        "recordedAt": "2026-09-20T08:00:00"
+      },
+      {
+        "id": 102,
+        "temperature": 5.2,
+        "recordedAt": "2026-09-19T09:00:00"
+      },
+      {
+        "id": 103,
+        "temperature": 5.7,
+        "recordedAt": "2026-09-15T10:00:00"
+      }
+    ]
+  },
+  {
+    "sensorCode": "TEMP-B07",
+    "name": "Trockenlager Sued",
+    "location": "Lager B",
+    "active": true,
+    "measurements": [
+      {
+        "id": 201,
+        "temperature": 18.4,
+        "recordedAt": "2026-09-15T08:00:00"
+      },
+      {
+        "id": 202,
+        "temperature": 19.1,
+        "recordedAt": "2026-09-12T09:00:00"
+      },
+      {
+        "id": 203,
+        "temperature": 20.0,
+        "recordedAt": "2026-09-11T10:00:00"
+      }
+    ]
+  },
+  {
+    "sensorCode": "TEMP-C12",
+    "name": "Tiefkuehler",
+    "location": "Lager C",
+    "active": false,
+    "measurements": [
+      {
+        "id": 301,
+        "temperature": -18.2,
+        "recordedAt": "2026-09-10T08:00:00"
+      },
+      {
+        "id": 302,
+        "temperature": -17.9,
+        "recordedAt": "2026-09-08T09:00:00"
+      }
+    ]
+  }
+]

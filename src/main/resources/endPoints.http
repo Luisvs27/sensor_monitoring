@@ -1,0 +1,32 @@
+### POST
+POST http://localhost:5050/monitor/sensors
+Content-Type: application/json
+
+{
+  "sensorCode": "TEMP-D02",
+  "name": "Garage",
+  "location": "Lager D",
+  "active": true,
+  "measurements": []
+}
+
+### POST: measurement
+POST http://localhost:5050/monitor/sensors/4/measurements
+Content-Type: application/json
+
+{
+  "id": 401,
+  "temperature": 21.1,
+  "recordedAt": "2026-09-30T08:00:00"
+}
+
+### PATCH
+PATCH http://localhost:5050/monitor/sensors/1
+Content-Type: application/json
+
+{
+  "name": "KLOK"
+}
+
+### Delete
+DELETE http://localhost:5050/monitor/sensors/1/measurements/102
